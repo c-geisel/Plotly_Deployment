@@ -78,9 +78,9 @@ function buildCharts(sample) {
 
     // 8. Create the trace for the bar chart. 
     var barData = [{
-      x:sample_values,
+      x:sample_values.slice(0, 10).reverse(),
       y:yticks,
-      text: otu_labels,
+      text: otu_labels.slice(0, 10).reverse(),
       type: "bar"
     }];
 

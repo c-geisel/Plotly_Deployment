@@ -61,6 +61,7 @@ function buildCharts(sample) {
     var samples = data.samples;
     // 4. Create a variable that filters the samples for the object with the desired sample number.
     var newSamples = samples.filter(sampleObj => sampleObj.id == sample);
+
     //  5. Create a variable that holds the first sample in the array.
     var firstSample = newSamples[0]
 
@@ -77,10 +78,11 @@ function buildCharts(sample) {
 
     // 8. Create the trace for the bar chart. 
     var barData = [{
-      x: sample_values,
+      x: sample_values.slice(0,10).reverse(),
       y: yticks,
-      text: otu_labels,
+      text: otu_labels.slice(0,10).reverse(),
       type: "bar",
+      orientation: "h"
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {

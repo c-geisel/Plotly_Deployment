@@ -1,5 +1,5 @@
 # Plotly Deployment
-[Link to the dashboard](https://c-geisel.github.io/Plotly_Deployment/)
+[Link to Dashboard](https://c-geisel.github.io/Plotly_Deployment/)
 
 [HTML Link](https://github.com/c-geisel/Plotly_Deployment/blob/main/index.html) | [Javascript Link](https://github.com/c-geisel/Plotly_Deployment/blob/main/charts.js)
 

@@ -8,3 +8,4 @@ The purpose of this project is to identify types of bacteria that are able to sy
 
 ## Results
 Using Plotly, Javascript, and HTML together, a series of graphs and charts are created to display our desired information based on an id number being chosen. The HTML file is then deployed using Github Pages. 
+![Plotly_Dashboard](Images/Plotly_Dashboard)
